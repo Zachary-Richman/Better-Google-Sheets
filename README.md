@@ -16,11 +16,12 @@ The Better Google Sheets library provides the easiest and simplest way to intera
 - Add it to your root directory and rename it `service-account.json`
 
 ## Usage
+
 ```python
-from utils.generation import Generation
-from utils.reading import Reading
-from utils.deletion import Deletion
-from utils.conditionals import Conditionals
+from better_gsheets.generation import Generation
+from better_gsheets.reading import Reading
+from better_gsheets.deletion import Deletion
+from better_gsheets.conditionals import Conditionals
 
 bgs_gen = Generation('<spreadsheet_id>')
 bgs_read = Reading('<spreadsheet_id>')

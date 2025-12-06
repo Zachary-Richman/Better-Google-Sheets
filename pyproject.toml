@@ -1,0 +1,25 @@
+[project]
+name = "better-gsheets"
+version = "0.1.0"
+description = "A higher-level, cleaner interface for the Google Sheets API."
+readme = "README.md"
+requires-python = ">=3.8"
+license = { file = "LICENSE" }
+authors = [
+    { name="Zachary Richman", email="richmanzj@gmail.com" }
+]
+
+dependencies = [
+    "google-api-python-client",
+    "google-auth",
+    "google-auth-oauthlib"
+]
+
+[project.urls]
+Homepage = "https://github.com/Zachary-Richman/better-gsheets"
+Repository = "https://github.com/Zachary-Richman/better-gsheets"
+Issues = "https://github.com/Zachary-Richman/better-gsheets/issues"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"

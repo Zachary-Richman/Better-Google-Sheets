@@ -1,7 +1,7 @@
 from googleapiclient import discovery
 from google.oauth2 import service_account
 import os
-from utils.reading import Reading
+from better_gsheets.reading import Reading
 
 
 class Deletion:
